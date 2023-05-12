@@ -1,0 +1,20 @@
+name: File Actions
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  file_actions:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+      
+    - name: Create file
+      run: touch example.txt
+      
+    - name: Delete file
+      run: rm example.txt
+
