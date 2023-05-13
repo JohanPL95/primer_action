@@ -15,6 +15,9 @@ jobs:
     - name: Crear carpeta
       run: mkdir carpeta_nueva
       
+    - name: Agregar archivo a la carpeta
+      run: cp archivo_ejemplo.txt carpeta_nueva/
+      
     - name: Create file
       run: touch example.txt
       
