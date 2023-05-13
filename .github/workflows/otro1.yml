@@ -12,8 +12,11 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v2
       
+    - name: Crear carpeta
+      run: mkdir carpeta_nueva
+      
     - name: Create file
-      run: touch JohanPL95/trabajos/example.txt
+      run: touch example.txt
       
     - name: Delete file
       run: rm example.txt
