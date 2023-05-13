@@ -13,7 +13,7 @@ jobs:
       uses: actions/checkout@v2
       
     - name: Create file
-      run: touch mi-carpeta/example.txt
+      run: touch trabajos/example.txt
       
     - name: Delete file
       run: rm example.txt
