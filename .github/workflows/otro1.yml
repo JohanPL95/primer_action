@@ -20,6 +20,8 @@ jobs:
       
     - name: Ver contenido de la carpeta
       run: ls carpeta_nueva
+    - name: Agregar texto al archivo
+      run: echo "Brayan_Nelson_Johan" >> archivo_ejemplo.txt
 
       
 
