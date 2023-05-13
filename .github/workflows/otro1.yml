@@ -18,8 +18,9 @@ jobs:
     - name: Create file
       run: touch carpeta_nueva/example.txt
       
-    - name: Agregar archivo a la carpeta
-      run: cp example.txt carpeta_nueva/
+    - name: Ver contenido de la carpeta
+      run: ls carpeta_ejemplo
+
       
 
 
