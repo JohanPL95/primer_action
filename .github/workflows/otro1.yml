@@ -19,7 +19,7 @@ jobs:
       run: touch carpeta_nueva/example.txt
       
     - name: Agregar archivo a la carpeta
-      run: cp archivo_ejemplo.txt carpeta_nueva/
+      run: cp example.txt carpeta_nueva/
       
 
 
