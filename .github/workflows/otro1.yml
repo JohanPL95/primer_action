@@ -14,13 +14,13 @@ jobs:
       
     - name: Crear carpeta
       run: mkdir Carpeta_nueva
+    
+    - name: Create file
+      run: touch Carpeta_nueva/example.txt
       
     - name: Agregar archivo a la carpeta
       run: cp archivo_ejemplo.txt Carpeta_nueva/
       
-    - name: Create file
-      run: touch example.txt
-      
-    - name: Delete file
-      run: rm example.txt
+
+
 
