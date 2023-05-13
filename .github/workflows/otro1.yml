@@ -19,7 +19,7 @@ jobs:
       run: touch carpeta_nueva/example.txt
       
     - name: Ver contenido de la carpeta
-      run: ls carpeta_ejemplo
+      run: ls carpeta_nueva
 
       
 
