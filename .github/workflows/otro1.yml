@@ -13,13 +13,13 @@ jobs:
       uses: actions/checkout@v2
       
     - name: Crear carpeta
-      run: mkdir Carpeta_nueva
+      run: mkdir carpeta_nueva
     
     - name: Create file
-      run: touch Carpeta_nueva/example.txt
+      run: touch carpeta_nueva/example.txt
       
     - name: Agregar archivo a la carpeta
-      run: cp archivo_ejemplo.txt Carpeta_nueva/
+      run: cp archivo_ejemplo.txt carpeta_nueva/
       
 
 
